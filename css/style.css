@@ -121,6 +121,17 @@ main {
   flex-grow: 1;
 }
 
+.big-line {
+  border-top: 2px solid lightgrey;
+}
+
+.small-line {
+  border: 1px solid lightgray;
+  width: calc(100% / 5);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 h1 {
   font-size: 5rem;
   margin-bottom: 2rem;
@@ -129,6 +140,7 @@ h1 {
 #jumbotron {
   min-height: 600px;
   background-color: #b4d0e7;
+  margin-bottom: 10rem;
 }
 
 .container.jumbo > .title {
@@ -140,16 +152,16 @@ h1 {
   display: block;
 }
 
-.jumbo {
+.container.jumbo {
   position: relative;
-  top: 4rem;
+  top: 4.5rem;
   max-width: 1200px;
   border: none;
 }
 
 .main {
-  margin-top: 10rem;
   border: none;
+  margin-top: 5rem;
 }
 
 h2 {
