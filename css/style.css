@@ -97,11 +97,15 @@ h1 {
 }
 
 .jumbo .row .col-1-3 > * {
-  display: block;
   margin-bottom: 1rem;
+  display: block;
 }
 
 .jumbo {
   position: relative;
   top: 5rem;
+}
+
+.main {
+  margin-top: 10rem;
 }
