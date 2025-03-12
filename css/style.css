@@ -12,7 +12,7 @@ img {
   max-width: 100%;
 }
 
-a {
+header a {
   text-decoration: none;
   color: inherit;
 }
@@ -171,6 +171,11 @@ h2 {
 
 h3 {
   padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+h5 {
+  padding-bottom: 1rem;
 }
 
 .col-title {
@@ -199,7 +204,7 @@ span {
 }
 
 li {
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 
 .container.main > * {
@@ -235,4 +240,33 @@ button {
 
 i {
   font-size: 4rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.container.footer {
+  max-width: 1200px;
+  border: none;
+  color: white;
+}
+
+.footer > .small-line {
+  width: calc(100% / 10);
+}
+
+.footer .container {
+  border: none;
+}
+
+.last-footer > * {
+  display: inline-block;
+  align-items: center;
+  font-size: 1rem;
+  color: #979a95;
 }
