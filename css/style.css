@@ -103,7 +103,7 @@ h1 {
 
 .jumbo {
   position: relative;
-  top: 5rem;
+  top: 4rem;
   max-width: 1200px;
   border: none;
 }
@@ -157,4 +157,31 @@ li {
 
 .col-2-3 > a {
   padding-top: 30px;
+}
+
+button {
+  background-color: #0062fe;
+  color: white;
+  padding: 15px 10px;
+  width: 100%;
+  border: none;
+}
+
+.center button {
+  margin-top: 2rem;
+}
+
+.white {
+  background-color: white;
+  color: black;
+  border: 2px solid;
+  width: 50%;
+}
+
+.button-75 {
+  width: 75%;
+}
+
+i {
+  font-size: 4rem;
 }
