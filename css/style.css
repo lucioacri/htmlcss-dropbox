@@ -115,6 +115,11 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-top: 2rem;
 }
 
 .col-title {
@@ -135,6 +140,7 @@ h2 {
 
 span {
   display: block;
+  padding: 20px 0;
 }
 
 .first-section > * {
@@ -143,4 +149,12 @@ span {
 
 li {
   padding-bottom: 10px;
+}
+
+.container.main > * {
+  padding-bottom: 60px;
+}
+
+.col-2-3 > a {
+  padding-top: 30px;
 }
