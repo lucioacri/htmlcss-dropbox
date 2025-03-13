@@ -313,6 +313,14 @@ i {
   margin: 0;
 }
 
+.container.jumbo::after {
+  content: "";
+  border: 1px solid lightgrey;
+
+  display: flex;
+  min-width: 100vh;
+}
+
 /* FOOTER */
 
 footer {
