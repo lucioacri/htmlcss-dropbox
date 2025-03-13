@@ -31,12 +31,13 @@ ul {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 950px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
   border: 2px solid lightgrey;
+  height: 100%;
 }
 
 .row {
@@ -165,7 +166,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-bottom: 20px;
 }
 
@@ -176,6 +177,39 @@ h3 {
 
 h5 {
   padding-bottom: 1rem;
+}
+
+.fa-solid.fa-arrow-down {
+  font-size: 4rem;
+}
+
+.radio {
+  border: none;
+  margin-left: -1rem;
+}
+
+.fa-solid {
+  font-size: 1rem;
+}
+
+.fa-check {
+  color: #0062fe;
+}
+
+.radio > .col-1-3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.blue > i {
+  color: #0062fe;
+  font-size: 1rem;
+}
+
+.grey > i {
+  color: lightgray;
+  font-size: 1rem;
 }
 
 .col-title {
@@ -205,6 +239,19 @@ span {
 
 li {
   padding-bottom: 1rem;
+}
+
+li > span > i {
+  font-size: 1rem;
+}
+
+li > span {
+  padding: 0;
+  margin-left: 0;
+}
+
+.fa-ul {
+  margin-left: var(--fa-li-margin, 1.5em);
 }
 
 .container.main > * {
